@@ -8,8 +8,8 @@ collections:
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Hero Image", name: "hero", widget: "image" }
-      - { label: "Updated Date", name: "updatedDate", widget: "datetime" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Updated Date", name: "updatedDate", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "string" }
 
 backend:
   name: git-gateway
