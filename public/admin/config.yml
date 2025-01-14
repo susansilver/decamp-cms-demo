@@ -11,5 +11,9 @@ collections:
       - { label: "Updated Date", name: "updatedDate", widget: "datetime" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
 
+backend:
+  name: git-gateway
+  branch: main
+
 media_folder: "public/images/uploads"
 public_folder: "/images/uploads"
