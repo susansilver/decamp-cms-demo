@@ -10,10 +10,6 @@
       - { label: 'Hero Image', name: 'hero', widget: 'string' }
       - { label: 'Updated Date', name: 'updatedDate', widget: 'datetime' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-
-  backend:
-    name: git-gateway
-    branch: main
   
 media_folder: 'public/images/uploads' # Folder where user uploaded files should go
 public_folder: '/images/uploads'
