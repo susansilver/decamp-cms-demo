@@ -7,9 +7,9 @@ collections:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "text" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Hero Image", name: "hero", widget: "image" }
+      - { label: "Hero Image", name: "heroImage", widget: "image" }
       - { label: "Updated Date", name: "updatedDate", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "string" }
+      - { label: "Publish Date", name: "pubDate", widget: "string" }
 
 backend:
   name: git-gateway
